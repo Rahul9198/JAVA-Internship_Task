@@ -1,0 +1,18 @@
+
+import java.sql.*;
+
+public class JDBC1 {
+
+	public static void main(String[] args)  {
+//		 TODO Auto-generated method stub
+		try {
+			Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306","root","rahul");
+			con.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}
