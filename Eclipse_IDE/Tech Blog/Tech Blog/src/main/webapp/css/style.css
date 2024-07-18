@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+.primary-background{
+	background:#673ab7 !important;
+	
+}
+.banner-background{
+	clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 98%, 68% 92%, 33% 98%, 0 89%, 0 0);
+}
